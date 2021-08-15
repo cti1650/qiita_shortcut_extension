@@ -1,0 +1,18 @@
+div.searchResult_snippet {
+  display: none;
+}
+/* ul.list-unstyled {
+  display: none;
+} */
+div.searchResult_header {
+  display: none;
+}
+div.searchResult_sub {
+  display: none;
+}
+div.searchResult_left {
+  display: none;
+}
+div.searchResult {
+  padding: 8px;
+}

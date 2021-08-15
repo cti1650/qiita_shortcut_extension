@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Qiita Shortcut Extension",
-  "version": "0.0.26",
+  "version": "0.0.35",
   "description": "Qiitaの機能をショートカットキーで実行できるようにしました！",
   "icons": {},
   "content_scripts": [
     {
       "matches": ["https://qiita.com/*"],
-      "js": ["js/content.js"]
+      "js": ["js/content.js"],
+      "css": ["css/style.css"]
     }
   ],
   "web_accessible_resources": ["js/embeded.js", "js/shortcut.js"],

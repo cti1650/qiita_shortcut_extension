@@ -18,11 +18,11 @@ const shorcutChecker = (defaultFunc = () => {}, searchFunc) => {
     },
     () => {
       console.log('Qiita SearchPage');
-      const Ele = document.querySelectorAll('h1.searchResult_itemTitle a');
-      Ele &&
-        Array.from(Ele).forEach((item) => {
-          console.log('<< ' + item.innerText + ' >>  ' + item.href);
-        });
+      // const Ele = document.querySelectorAll('h1.searchResult_itemTitle a');
+      // Ele &&
+      //   Array.from(Ele).forEach((item) => {
+      //     console.log('<< ' + item.innerText + ' >>  ' + item.href);
+      //   });
     }
   );
   shortcut.add('Ctrl+F', function () {
