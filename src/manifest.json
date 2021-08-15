@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Wantedly New Projects",
-  "version": "0.0.18",
-  "description": "Wantedlyのソートを自動的に新着順にします！",
+  "name": "Qiita Shortcut Extension",
+  "version": "0.0.1",
+  "description": "Qiitaの機能をショートカットキーで実行できるようにしました！",
   "icons": {},
   "background": {
     "scripts": ["background.js"],
