@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wantedly New Projects",
+  "version": "0.0.18",
+  "description": "Wantedlyのソートを自動的に新着順にします！",
+  "icons": {},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs"]
+}
